@@ -1,0 +1,19 @@
+{
+  "name": "css-display",
+  "version": "1.0.0",
+  "description": "CSS Display Property Assessments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jailanyat26@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^79.0.3",
+    "nightwatch": "^1.3.4",
+    "selenium-server": "^3.141.59"
+  }
+}

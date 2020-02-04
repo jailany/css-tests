@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>
+      CSS Display Properties
+    </title>
+    <style>
+      body {
+        padding-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      button {
+        padding: 10px;
+        outline: none;
+        border: 1px solid #000000;
+        font-size: 14px;
+        margin: 0;
+      }
+
+      div{
+        box-sizing: border-box;
+      }
+
+      .movie-columns > div {
+        margin-right: -4px;
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- hero text DIV -->
+    <div id="hero-text">
+      <h2 id="title" style="display: block;">My Moview Reviews</h2>
+      <h3 id="subtitle" style="display: block;">Welcome to my movie reviews. You can find my reviews on latest movies below.</h3>
+    </div>
+
+    <br/><br/><br/>
+
+    <!-- movie columns DIV -->
+    <div id="movie-columns" class="movie-columns">
+      <!-- movie column 1 -->
+      <div id="movie-1" style="width: 25%; padding-right: 10px; display: inline-block;">
+        <h4 id="movie-title-1">Avengers Endgame</h4>
+        <p id="movie-review-1">Don't expect a typical happy ending. Just prepare to be wowed.</p>
+      </div>
+      <div id="movie-2" style="width: 25%; padding-right: 10px; display: inline-block;">
+        <h4 id="movie-title-2">Ford Vs Ferrari</h4>
+        <p id="movie-review-2">Even if you’re not a motorhead, chances are you’ll be thrilled by this high-velocity bromance</p>
+      </div>
+      <div id="movie-3" style="width: 25%; padding-right: 10px; display: inline-block;">
+        <h4 id="movie-title-3">Joker</h4>
+        <p id="movie-review-3">Joker is brutal and dark origin story of a man's painful journey to self destruction.</p>
+      </div>
+      <div id="movie-4" style="width: 25%; padding-right: 10px; display: inline-block;">
+        <h4 id="movie-title-4">21 Bridges</h4>
+        <p id="movie-review-4">If you saw Chadwick Boseman in Black Panther and want more of King T’Challa, you’ll not find him here.</p>
+      </div>
+    </div>
+
+    <br/><br/><br/>
+
+    <!-- link area DIV -->
+    <div id="link-area" style="text-align: center;">
+      <a id="like-button" href="#like" style="display: inline">LIKE</a>
+      <a id="share-button" href="#share" style="display: inline">SHARE</a>
+    </div>
+  </body>
+</html>
